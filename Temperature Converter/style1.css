@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:white;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('images/wp6946106.jpg');
+}
+header{
+    font-weight: bolder;
+}
+
+header span{
+    color:red;
+}
+
+html{
+    text-rendering: optimizeLegibility;
+}
+
+.top-nav{
+    background-color: black;
+    width:100%;
+    padding:12px;
+}
+
+
+.heading{
+    font-size: 400%;
+    text-shadow: 2px 2px 5px white,0 0 5px darkblue;
+    margin:100px;
+}
+
+.selections{
+    display: flex;
+    flex-direction: column;
+    padding-left:62px;
+    padding-top:30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.selections i{
+    color:white;
+    font-size: 30px;
+    color:greenyellow;
+}
+
+.selections a{
+    text-decoration: none;
+    color:white;
+    width:100%;
+    font-size: 40px;
+}
+
+.selections a:nth-child(2)
+{
+    margin-top:20px;
+}

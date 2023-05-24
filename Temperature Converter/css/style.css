@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    background-image:url(https://wallpapercave.com/wp/wp6946106.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.top-nav{
+  background-color:black;
+  width:100%;
+  height:100%;
+  color:white;
+  padding:15px;
+}
+
+.sides{
+    margin:0;
+    padding:0;
+}
+
+.temp-box{
+    width:500px;
+    height:380px;
+    background-color: aliceblue;
+    padding:20px;
+    position:relative;
+    top:160px;
+    left:513px;
+    right:0;
+    border-radius:5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.celsius-temp input,.fahrenheit-temp input,.final-result input,.kelvin-temp input{
+    width:90%;
+    padding:8px;
+    margin-top:6px;
+    margin-bottom:20px;
+    box-shadow:5px 3px 5px 3px black;
+}
+
+.converter{
+    margin-top:25px;
+}
+
+#submit{
+    width:20%;
+    padding:8px;
+    border:0;
+    border-radius:2px;
+}
+
+#reset{
+    width:20%;
+    padding:8px;
+    border:0;
+    border-radius:2px;
+    position:relative;
+    left:12px;
+
+}
