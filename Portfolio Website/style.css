@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+html{
+    text-rendering: optimizeLegibility;
+
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+.clearfix {zoom:1}
+.clearfix::after{
+    content: '.';
+    clear:both;
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+
+.port-navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    padding:15px;
+    background-color: #fff;
+}
+
+
+.port-navbar li{
+    list-style-type: none;
+    position:relative;
+    top:6px;
+    left:-30px;
+    margin-left: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.port-navbar li:hover{
+   border-bottom: 2px solid #0080ff;
+}
+
+.logo{
+  position:relative;
+  right:840px;
+  font-family: 'Mogra', cursive;
+  font-size: 27px;
+}
+
+.port-navbar a{
+    text-decoration: none;
+    color:black;
+}
+
+.port-body{
+    background-color: #FFF;
+    padding:100px;
+}
+
+.port-content span{
+    color:#0080ff;
+}
+.image{
+    position:relative;
+    top:-500px;
+    right:90px;
+}
+.image img{
+    width:400px;
+    float:right;
+}
+
+.floating {
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+
+@keyframes floating {
+	0% { transform: translate(0, 0px); }
+	50% { transform: translate(0, 15px); }
+	100% { transform: translate(0, -0px); }
+}
+
+
+.first{
+   font-size: 100px;
+   font-weight: bolder;
+   font-family: 'Poppins', sans-serif;
+}
+
+.second {
+    font-size:60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.third{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.port-content{
+    position: relative;
+    top:25px;
+}
+
+.button button{
+   background-color:#0080ff;
+   border-radius: 5px;
+   color:white;
+   padding:8px;
+   border:none;
+   width:140px;
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+}
+
+.button{
+    margin-top:50px;
+    margin-left:3px;
+}
+
+.about{
+    color:white;
+    padding:100px;
+    background:linear-gradient(#2980B9,#6DD5FA);
+    position:relative;
+    top:-200px;
+}
+
+.about-heading h1::after{
+    display:block;
+    content:"";
+    border:2px solid white;
+    margin:25px auto;
+    width:60px;
+}
+
+.about-content{
+    margin-top:110px;
+}
+
+.about-content h3{
+    word-spacing: 4px;
+    line-height: 160%;
+    overflow: hidden;
+    text-shadow: 2px 2px 5px black;
+}
+
+.skills{
+  padding:120px;
+  background:#FFF;
+  position:relative;
+  top:-200px;
+}
+
+.skill-heading h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+}
+
+.box{
+    border:1px solid grey;
+    padding:50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 10px #0080ff;
+    background-color: #fff;
+    margin-top:90px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.skills h1::after{
+    display:block;
+    content:"";
+    border:2px solid #0080ff;
+    margin:25px auto;
+    width:60px;
+}
+
+.skill{
+    display:flex;
+    flex-direction: column;
+    margin-bottom:40px;
+}
+
+.login-form{
+    background:linear-gradient(#2980B9,#6DD5FA);
+    position:relative;
+    top:-200px;
+    padding:80px;
+}
+
+
+.login{
+ padding:100px;
+ position:relative;
+ top:0px;
+}
+
+.login-heading{
+    text-align: center;
+    margin-top:50px;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+}
+
+.login-heading::after{
+    display:block;
+    content:"";
+    border:2px solid black;
+    margin:25px auto;
+    width:60px;
+}
+
+.name input,.phone input,.email input{
+  width:100%;
+  padding:20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Roboto', sans-serif
+}
+
+#submit{
+    margin-top:50px;
+}
+
+.port-foot{
+    background: linear-gradient(315deg, #000000 0%, #414141 74%);
+    position:relative;
+    top:-200px;
+    padding:200px;
+}
+
+.social-icons{
+    margin-left:504px;
+}
+
+.social-icons a{
+    display:inline-block;
+    margin-left: 10px;
+    font-size:30px;
+}
+
+
+.foot-text{
+    text-align: center;
+    margin-top:50px;
+    color:grey;
+}
