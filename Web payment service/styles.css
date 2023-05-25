@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    text-align:center;
+}
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.nav-header{
+    background-image: linear-gradient(to bottom right, red , blue);
+    max-width:1544px;
+    max-height:1140px;
+    position:relative;
+    top:-20px;
+    
+}
+
+.main-nav{
+    margin-top:20px;
+    margin-left:9%;
+}
+
+.top-nav{
+   display:flex;
+   flex-direction: row;
+   list-style-type: none;
+}
+
+.top-nav a{
+    text-decoration: none;
+}
+
+.top-nav li{
+    padding:30px;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    color:white;
+}
+.top-nav li:hover{
+    color:#6C7B8B;
+}
+
+.nav-right{
+display:flex;
+flex-direction:row;
+position:relative;
+top:-104px;
+right:-1007px;
+}
+
+.nav-right a{
+    text-decoration: none;
+    
+}
+
+.top-logo{
+    font-family: 'Braah One', sans-serif;
+    font-size:larger;
+    font-weight: bolder;
+}
+
+.nav-right li
+{
+    list-style-type: none;
+    padding:30px;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    color:white;
+   
+}
+
+.nav-right li:hover{
+    color:#6C7B8B;
+}
+
+.btn-primary{
+    background-color: white;
+    border-radius:60px;
+}
+
+.main-heading{
+   font-size:500%;
+   font-weight: bolder;
+   text-align: start;
+   margin-left:11%;
+   margin-top:5%;
+    
+    
+}
+ .app-image img{
+    width:300px;
+    text-align:right;
+    margin-left:60%;
+    margin-top:-34%;
+ }
+
+ .main-content{
+    font-size:135%;
+    font-weight: bolder;
+    text-align: start;
+    word-spacing:10px;
+    margin-left:11%;
+    margin-top:5%;
+    color:white;
+    font-family: 'Konkhmer Sleokchher', cursive;
+}
+
+.btn-header{
+   position:relative;
+   top:-55px;
+   left:167px;
+   display:flex;
+   flex-direction: row;
+}
+
+.start{
+    width:8%;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    padding:5px;
+    border-radius: 12px;
+    background-color: black;
+    color: aliceblue;
+    border:none;
+    cursor: pointer;
+}
+
+.start:hover{
+    color:grey;
+}
+
+.sign{
+    font-family: 'Konkhmer Sleokchher', cursive;
+    width:7%;
+    border-radius: 12px;
+    padding:5px;
+    position:relative;
+    left:20px;
+    color:white;
+    cursor:pointer;
+    border:none;
+    background-image: linear-gradient(to bottom right,  #4776E6 70%,#8E54E9 30%);
+}
+
+.sign:hover{
+    background-image: linear-gradient(to bottom right, #4776E6 0%,#8E54E9 100%);
+}
+
+.main{
+    background-color: white;
+    position:relative;
+    top:-20px;
+    bottom:30%;
+    padding:300px;
+    padding-bottom:20px;
+}
+
+.clearfix {zoom:1}
+.clearfix::after{
+    content: '.';
+    clear:both;
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+
+.main h2{
+    font-weight: bolder;
+    margin-top:-20%;
+}
+
+.main h2:after{
+    display:block;
+    border:2px solid green;
+    content:" ";
+    width:10%;
+    margin:25px auto;
+}
+
+.modal-1{
+   margin:160px;
+}
+.modal-1-content{
+    background-color: #FDFCFA;
+    width:203%;
+    padding:102px;
+    border:1px solid #ECEFEC;
+    position:relative;
+    right:51%;
+    top:20%;
+    border-radius: 4px;
+    box-shadow: 20px 20px 50px 15px grey;
+
+}
+
+.modal-1 h3{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 41px;
+}
+
+.modal-1 ul{
+    list-style-type: none;
+    margin-top:40px;
+}
+
+.modal-1 li{
+    text-align: left;
+    padding:15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.modal-1 span,
+.modal-1 i{
+    color:blueviolet;
+}
+
+.modal-1 i{
+    width:50px;
+    font-size: larger;
+}
+
+.btn-modal{
+    background-color:blueviolet;
+    color:white;
+    padding:12px;
+    border-radius:6px;
+    border:0;
+    float:left;
+    width:15%;
+    font-family: 'Konkhmer Sleokchher', cursive;
+}
+
+.utility{
+    padding:100px;
+    background: linear-gradient(#C193C5,#7BC6CC);
+}
+.box{
+    background-image: url(images/payment-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding:345px;
+    width:100%;
+    margin-top:100px;
+    box-shadow: black 0px 7px 36px 1px;
+}
+
+.heading h1{
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.second::after{
+    display:block;
+    content:"";
+    border:2px solid white;
+    margin:30px auto;
+    width:90px;
+}
+
+.box-content{
+    position:relative;
+    left:-360px;
+    top:-260px;
+}
+
+.checkout{
+    padding:80px;
+}
+
+.checkout-heading{
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+.checkout-heading span{
+  color:blueviolet;
+}
+
+.zomato,.bata,.intel,.udemy{
+    height:80px;
+    width:200px;
+}
+
+.irctc{
+    height:180px;
+    width:200px;
+}
+
+.brands marquee {
+    width:112%;
+    position:relative;
+    left:-79px;
+    margin-top:40px;
+}
+
+.brands img{
+    margin-left:60px;
+}
+
+
+.left-lists li,
+.right-lists li,
+.business-lists li{
+    text-align: left;
+    padding-bottom:10px;
+}
+
+.left-lists a,
+.right-lists a,
+.business-lists a{
+   color:#C0C0C0;
+   cursor:pointer;
+}
+
+.left-lists a:hover,
+.right-lists a:hover,
+.business-lists a:hover{
+   color:#808080
+}
+
+.social-icons{
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    right:-350px;
+    top:90px;
+    font-size:20px;
+}
+
+.fb,.insta,.twitter,.linkedin{
+    margin-left:20px;
+}
+

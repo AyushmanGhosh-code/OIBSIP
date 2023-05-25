@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    border:0;
+}
+
+body{
+    max-width:100%;
+    overflow-x:hidden;
+    background-image:linear-gradient(to bottom right, red , blue);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    padding:200px;
+    
+
+}
+
+.login-form{
+    text-align:center;
+    width:600px;
+    height:500px;
+    background-color: whitesmoke;
+    padding:50px;
+    position:relative;
+    top:-58px;
+    left:233px;
+    border-radius:20px;
+    opacity: 0.8;
+}
+
+.login-form h2{
+    font-family: 'Castoro Titling', cursive;
+    margin-bottom:30px;
+    font-weight: bolder;
+}
+
+.login-username{
+    padding:20px;
+}
+
+.login-username input{
+    background-color: whitesmoke;
+    width:100%;
+    padding:10px;
+}
+
+.login-username input:focus{
+    outline:none;
+}
+
+.login-password input:focus{
+    outline:none;
+}
+
+.login-password input{
+    background-color: whitesmoke;
+    width:92%;
+    padding:10px;
+}
+
+.login-username:after{
+    display:block;
+    content:"";
+    border:1px solid black;
+    width:450px;
+    margin:10px auto;
+}
+
+.login-password:after{
+    display:block;
+    content:"";
+    border:1px solid black;
+    width:450px;
+    margin:10px auto;
+}
+
+.login-username input::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+
+.login-password input::placeholder{
+    font-family: 'Raleway', sans-serif;
+   font-weight: bolder;
+}
+
+.login-form button{
+    margin-top:60px;
+}
+
+.forgot-password a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+   font-weight: bolder;
+   color:black;
+}
+
+.forgot-password{
+    margin-top:30px;
+}
